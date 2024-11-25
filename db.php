@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db = "onlineshop";
+$servername = "newdatabase.czzxdakwk1pg.us-east-1.rds.amazonaws.com";
+$username = "admin";
+$password = "jaideepgrover";
+$db = "";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
