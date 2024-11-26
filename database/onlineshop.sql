@@ -343,7 +343,7 @@ CREATE TABLE `reviews` (
 --
 
 INSERT INTO `reviews` (`review_id`, `product_id`, `name`, `email`, `review`, `datetime`, `rating`) VALUES
-(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2),;
+(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2);
 
 -- --------------------------------------------------------
 
@@ -613,8 +613,8 @@ ALTER TABLE `wishlist`
 --
 -- Constraints for table `orders_info`
 --
-ALTER TABLE `orders_info`
-  ADD CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `user_info` (`user_id`);
+-- ALTER TABLE `orders_info`
+--   ADD CONSTRAINT `user_id` FOREIGN KEY (`user_id`) REFERENCES `user_info` (`user_id`);
 
 --
 -- Constraints for table `order_products`
